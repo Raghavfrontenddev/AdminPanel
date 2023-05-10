@@ -3,9 +3,9 @@
 // import product_01_image_02 from "../images/product_01.1.jpg";
 // import product_01_image_03 from "../images/product_01.3.jpg";
 
-import product_02_image_01 from "../images/product_2.1.jpg";
-import product_02_image_02 from "../images/product_2.2.jpg";
-import product_02_image_03 from "../images/product_2.3.jpg";
+import product_02_image_01 from "../images/product_2.1.png";
+import product_02_image_02 from "../images/product_2.1.png";
+import product_02_image_03 from "../images/product_2.3.png";
 
 import product_03_image_01 from "../images/product_3.1.jpg";
 import product_03_image_02 from "../images/product_3.2.jpg";
@@ -37,37 +37,37 @@ const products = [
   // },
 
   {
-    id: "02",
-    title: "Vegetarian Pizza",
+    id: "01",
+    title: "Mutton Briyani",
     price: 115.0,
     image01: product_02_image_01,
     image02: product_02_image_02,
     image03: product_02_image_03,
-    category: "Pizza",
+    category: "Briyani",
+    
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+  },
+
+  {
+    id: "02",
+    title: "Chicken Briyani",
+    price: 110.0,
+    image01: product_03_image_02,
+    image02: product_03_image_01,
+    image03: product_03_image_03,
+    category: "Briyani",
     
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
   },
 
   {
     id: "03",
-    title: "Double Cheese Margherita",
-    price: 110.0,
-    image01: product_03_image_01,
-    image02: product_03_image_02,
-    image03: product_03_image_03,
-    category: "Pizza",
-    
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
-  },
-
-  {
-    id: "04",
-    title: "Maxican Green Wave",
+    title: "Mutton Briyani",
     price: 110.0,
     image01: product_04_image_01,
     image02: product_04_image_02,
     image03: product_04_image_03,
-    category: "Pizza",
+    category: "Briyani",
     
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
   },
@@ -96,37 +96,37 @@ const products = [
   // },
 
   {
-    id: "07",
-    title: "Seafood Pizza",
+    id: "04",
+    title: "Mutton Briyani",
     price: 115.0,
     image01: product_02_image_02,
     image02: product_02_image_01,
     image03: product_02_image_03,
-    category: "Pizza",
+    category: "Briyani",
     
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
   },
 
   {
-    id: "08",
-    title: "Thin Cheese Pizza",
+    id: "05",
+    title: "Egg Briyani",
     price: 110.0,
     image01: product_03_image_02,
     image02: product_03_image_01,
     image03: product_03_image_03,
-    category: "Pizza",
+    category: "Briyani",
     
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
   },
 
   {
-    id: "09",
-    title: "Pizza With Mushroom",
+    id: "06",
+    title: "Mutton Briyani",
     price: 110.0,
-    image01: product_04_image_02,
-    image02: product_04_image_01,
-    image03: product_04_image_03,
-    category: "Pizza",
+    image01: product_02_image_02,
+    image02: product_02_image_01,
+    image03: product_02_image_03,
+    category: "Briyani",
     
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
   },

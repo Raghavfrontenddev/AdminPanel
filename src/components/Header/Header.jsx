@@ -64,8 +64,8 @@ const Header = () => {
       <Container>
         <div className="nav__wrapper d-flex align-items-center justify-content-between">
           <div className="logo" onClick={() => navigate("/home")}>
-            <img src={logo} alt="logo" />
-            <h5>Tasty Treat</h5>
+            <img src={logo} alt="logo" style={{ width: "18%", height: "18%" }}/>
+            
           </div>
           {/* ======= menu ======= */}
           <div className="navigation" ref={menuRef} onClick={toggleMenu}>

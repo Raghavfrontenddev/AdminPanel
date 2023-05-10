@@ -8,6 +8,13 @@ import Helmet from "../components/Helmet/Helmet";
 import ReactPaginate from "react-paginate";
 import "../styles/pagination.css";
 
+// import Commerce from '@chec/commerce.js';
+
+// const commerce = new Commerce('{pk_517267717706df3d39ab4a44126aae98baf632b72c612}');
+
+// commerce.products.list().then((product) => console.log(product));
+
+
 const Pizzas = () => {
   const [pageNumber, setPageNumber] = useState(0);
 

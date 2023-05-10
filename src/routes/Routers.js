@@ -6,6 +6,8 @@ import Pizzas from "../pages/Pizzas";
 import PizzaDetails from "../pages/PizzaDetails";
 import Cart from "../pages/Cart";
 import Checkout from "../pages/Checkout";
+import ListProduct from "../pages/Product-list";
+import ProductDetail from "../pages/Productdetails";
 
 const Routers = () => {
   return (
@@ -16,6 +18,8 @@ const Routers = () => {
       <Route path="/cart" element={<Cart />} />
       <Route path="/checkout" element={<Checkout />} />
       <Route path="/pizzas/:id" element={<PizzaDetails />} />
+      <Route path="/listproduct" element={<ListProduct />} />
+      <Route path="/productdetail" element={<ProductDetail />} />
     </Routes>
   );
 };
